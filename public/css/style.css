@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.amarillo{
+    color:#EAC926; 
+} 
+.azul{
+    color:#03264C; 
+} 
+.celeste{
+    color:#1259c3; 
+}
+.gris-oscuro{
+    color:#666; 
+} 
+.gris-claro{
+    color:#ebebeb; 
+} 
+.verde{
+    color:#39b54a; 
+} 
+.blanco{
+    color: white;
+}
+
+.bg-amarillo{
+    background-color: #EAC926;
+}
+.bg-gris-claro{
+    background-color: #ebebeb;
+}
+.bg-blanco{
+    background-color: white;
+}
+ .nav-bar, .login-bar{
+    display: none;
+ }
+.main{
+    /* width: 100%; */
+padding-left: 5%;
+padding-right: 5%;
+margin: 0%;
+}
+/* Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px */
+.historial-articulos, .articulos-ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.articulos{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.informacion-producto{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+    align-items: center;
+}
+
+.informacion-producto i{
+
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+color:#39b54a ;
+        
+}
+.descripcion-articulo{
+    display: none;
+}
+
+.Txt-xl{
+    font-size:24px;
+}
+.Txt-l{
+font-size:18px;
+}
+.Txt-m{
+    font-size:16px;
+    }
+.Txt-s{
+    font-size:12px ;
+}
+
+.center{
+    text-align: center;
+}
+
+.burger-menu{
+    font-size: 50px;
+    background-color: #1259c3;
+    width: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.W-100{
+    width: 100%;
+}
+.Wv-90{
+    width: 90vw;
+}
+/* .pie-de-pagina i{
+font-size: 2em;
+} */
+.info{
+    font-size: 2em;
+    padding: 20px;
+}
+.info i{
+    color:#1259c3 ;
+}
+
+@media(min-width:481px){
+.descripcion-articulo{
+    display: block;
+
+}
+.articulos{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 49%;
+
+}
+}
+@media(min-width:841px){
+    .nav-bar, .login-bar{
+        display:block;
+     }
+     .burger-menu{
+        display: none;
+     }
+     .articulos{
+        width: 24%;
+     }
+}
