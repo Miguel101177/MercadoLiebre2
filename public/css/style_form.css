@@ -1,0 +1,9 @@
+.formulario{
+    margin: 2%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: solid #666 1px;
+    border-radius: 5px;
+
+}
