@@ -1,9 +1,67 @@
-.formulario{
+.formulario {
     margin: 2%;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    border: solid #666 1px;
+
+    /* border: solid #666 1px; */
     border-radius: 5px;
 
+}
+
+.border-box {
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.perfil-de-usuario {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.intereses {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+
+
+}
+
+.botones button {
+    border: solid 1px black;
+    border-radius: 2px;
+    width: 30%;
+    transition: all 0.5s;
+}
+
+@media(min-width:481px) {
+    .formulario {
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    .main-class {
+        padding: 10px;
+    }
+
+    .botones button:hover {
+        border: solid 1px #0022AA;
+        background-color: #0022AA;
+        color: white;
+
+
+    }
 }
