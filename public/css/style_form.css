@@ -16,10 +16,10 @@
     padding: 5px;
 }
 
-.perfil-de-usuario {
+.perfilusuario {
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 10px;
     justify-content: space-around;
 }
 
@@ -30,6 +30,9 @@
 .w-95 {
     width: 95%;
 }
+.w-x{
+    width: 90%;
+}
 
 .intereses {
     display: flex;
@@ -39,18 +42,26 @@
 
 
 }
-
+.botones{
+    text-align: center;
+}
 .botones button {
     border: solid 1px black;
     border-radius: 2px;
     width: 30%;
     transition: all 0.5s;
+    margin-top: 20px;
+    padding: 8px;
+}
+.select{
+    width: 10%;
 }
 
 @media(min-width:481px) {
     .formulario {
-        width: 400px;
-        margin-left: 50px;
+        width: 45%;
+        margin: 6% 27.5%;
+        border: solid 1px #0022AA;
     }
 
     .main-class {

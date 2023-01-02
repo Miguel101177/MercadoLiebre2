@@ -200,9 +200,9 @@ Descripciones: 16px */
     width: 90vw;
 }
 
-/* .pie-de-pagina i{
-font-size: 2em;
-} */
+.pie-de-pagina {
+border-top:solid 2px #1259c3;
+} 
 .info {
     font-size: 2em;
     padding: 20px;
