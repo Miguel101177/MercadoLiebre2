@@ -1,14 +1,16 @@
 .formulario {
-   /*  margin: 2%; */
-    padding: 10px;
+
+    padding: 45px 10px;
     display: flex;
      flex-direction: column; 
 
-    /* border: solid #666 1px; */
+   
     border-radius: 5px;
 
 }
-
+.text-decoration-none{
+    text-decoration: none; 
+ }
 .border-box {
     border: none;
     border-radius: 5px;
@@ -44,15 +46,41 @@
 }
 .botones{
     text-align: center;
+    height: 2rem;
 }
-.botones button {
+.botones button{
     border: solid 1px black;
+    background-color: #ebebeb;
     border-radius: 2px;
     width: 30%;
     transition: all 0.5s;
     margin-top: 20px;
-    padding: 8px;
+    height: 2rem;
 }
+.botones button a{
+    text-decoration: none;
+    color: black;
+}
+.boton{
+    text-align: center;
+    height: 2rem;
+    margin: 10px;
+}
+.boton button{
+    border: solid 1px black;
+    background-color: #ebebeb;
+    border-radius: 2px;
+    width: 100%;
+    transition: all 0.5s;
+    margin-top: 20px;
+    height: 2rem;
+}
+
+.boton button a{
+    text-decoration: none;
+    color: black;
+}
+
 .select{
     width: 10%;
 }
@@ -62,8 +90,11 @@
         width: 45%;
         margin: 6% 27.5%;
         border: solid 1px #0022AA;
+        transition: all 0.4s;
     }
-
+.formulario:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
     .main-class {
         padding: 10px;
     }
@@ -71,8 +102,20 @@
     .botones button:hover {
         border: solid 1px #0022AA;
         background-color: #0022AA;
-        color: white;
-
-
+        color: rgb(249, 248, 248);
+    }
+.botones button:hover a{
+        display: block;
+        color: rgb(249, 248, 248);
+    }
+    
+    .boton button:hover {
+        border: solid 1px #0022AA;
+        background-color: #0022AA;
+        color: rgb(249, 248, 248);
+    }
+.boton button:hover a{
+        display: block;
+        color: rgb(249, 248, 248);
     }
 }

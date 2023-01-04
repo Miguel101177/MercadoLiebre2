@@ -52,7 +52,12 @@ font-size: 1.3vw;
 .bg-blanco {
     background-color: white;
 }
-
+.main-header{
+    position: fixed;
+    top: 0px;
+    z-index: 6;
+    width: 100vw;
+}
 .header-up {
     padding: 10px;
     display: flex;
@@ -93,12 +98,13 @@ background-color: #FFF;
 
 .burger-menu {
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     background-color: blue;
     color: aliceblue;
-    width: 75px;
+    width: 35px;
     border-radius: 3px;
     margin: auto;
+    cursor: pointer;
 }
 
 .nav-bar,
@@ -113,20 +119,16 @@ background-color: #FFF;
     
 }
 
-.main {
+.main-class {
     /* width: 100%; */
     padding-left: 5%;
     padding-right: 5%;
     margin: 0%;
     flex-grow: 1;
+    margin-top: 137px;
 }
 
-/* Tamaños Tipográficos
-Cuerpos de texto: 12px
-Titulares (Basado en tu última visita/Ofertas): 24px
-Precios: 18px
-Descuentos: 16px
-Descripciones: 16px */
+
 .historial-articulos,
 .articulos-ofertas {
     display: flex;
@@ -228,9 +230,11 @@ border-top:solid 2px #1259c3;
     }
     .texto{
         width: 95%;
+        border-radius: 3px;
     }
     .lupa{
         background-color: white;
+        border-radius: 3px;
     }
     .anuncio-header{
         font-size: 2vh;
